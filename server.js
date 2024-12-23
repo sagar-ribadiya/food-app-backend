@@ -17,7 +17,7 @@ app.use('/api', userRouter);
 
 
 // Connect to MongoDB
-mongoose.connect(  'mongodb+srv://srcoat7600:sagar4078@cluster0.nhujj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
+mongoose.connect(  'mongodb+srv://<user:password>@cluster0.nhujj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
     .then(() => console.log('MongoDB connected...'))
     .catch(err => console.log(err));
 
